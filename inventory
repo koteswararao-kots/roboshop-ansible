@@ -1,2 +1,6 @@
 [mongodb]
 mongodb.projectdevops.online
+
+[catalogue]
+catalogue.projectdevops.online
+
