@@ -22,3 +22,6 @@ mysql.projectdevops.online
 [shipping]
 shipping.projectdevops.online
 
+[rabbit]
+rabbit.projectdevops.online
+
