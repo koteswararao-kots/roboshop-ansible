@@ -9,3 +9,6 @@ web.projectdevops.online
 
 [redis]
 redis.projectdevops.online	
+
+[user]
+user.projectdevops.online	
