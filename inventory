@@ -25,3 +25,5 @@ shipping.projectdevops.online
 [rabbitmq]
 rabbit.projectdevops.online
 
+[payment]
+payment.projectdevops.online
