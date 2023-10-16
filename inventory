@@ -7,3 +7,5 @@ catalogue.projectdevops.online
 [web]
 web.projectdevops.online
 
+[redis]
+redis.projectdevops.online	
