@@ -12,3 +12,6 @@ redis.projectdevops.online
 
 [user]
 user.projectdevops.online	
+
+[cart]
+cart.projectdevops.online	
