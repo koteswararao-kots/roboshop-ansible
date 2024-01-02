@@ -5,10 +5,10 @@
   - name: setup NPM source
     ansible.builtin.shell: "curl -sL https://rpm.nodesource.com/setup_lts.x | bash"
 
-  # - name: Install NodeJS
-  #   ansible.builtin.yum:
-  #     name: nodejs
-  #     state: installed
+  - name: Install NodeJS
+    ansible.builtin.yum:
+      name: nodejs
+      state: installed
 
   - name: check roboshop user exist or not
     ansible.builtin.command: id roboshop
@@ -47,10 +47,10 @@
       dest: /app
       remote_src: yes
 
-  # - name: install dependencies
-  #   ansible.builtin.command: npm install
-  #   args:
-  #     chdir: /app
+  - name: install dependencies
+    ansible.builtin.command: npm install
+    args:
+      chdir: /app
 
   - name: copy catalogue service
     ansible.builtin.copy:
